@@ -1,65 +1,31 @@
-body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.small {
+    width: 200px;
 }
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
+div {
+width: 1000px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+align-items: center;
+vertical-align: top;
 }
-td {
+
+img {
+    width: 800px;
+}
+
+#pictures {
+    height: 600px;
+}
+
+#button {
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p {
     margin: 0;
     padding: 0;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    box-sizing: border-box;
-}
-tr:first-child p{
-    transform: rotate(180deg);
-}
-.field{
-    border: 2px solid rgb(136, 57, 26);
-    box-sizing: border-box;
-}
-td:last-child p {
-    transform: rotate(180deg);
-}
-.white{
-    background: rgb(255, 255, 255);
-    background-image: url("white.png");
-}
-.black{
-    background: rgb(0, 0, 0);
-    background-image: url("black.png");
-}
-.numeration{
-    background: rgb(255, 255, 255);
-    background-image: url("white.png");
-}
-.corner{
-    background: rgb(255, 255, 255);
-    background-image: url("white.png");
-}
-.whiteChessPiece{
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
-}
-.blackChessPiece{
-    color:rgb(0, 0, 0);
-    font-size: 30px;
-    font-weight: bold;
-}
-p{
-    margin: 0;
-    padding: 0;
-}
-td[id*="whiteChessPiece_"] {
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
-}
-td[id*="blackChessPiece_"] {
-    color:rgb(0, 0, 0);
-    font-size: 30px;
-    font-weight: bold;
 }
