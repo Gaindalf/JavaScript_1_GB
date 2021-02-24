@@ -1,56 +1,112 @@
-body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+body {
+    font-family: Verdana, sans-serif;
 }
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
+.small {
+    width: 200px;
 }
-td {
-    margin: 0;
-    padding: 0;
-    width: 50px;
-    height: 50px;
+div {
+    /*border: 1px solid #000;*/
+    width: 180px;
+    margin: 5;
     text-align: center;
     box-sizing: border-box;
 }
-tr:first-child p{
-    transform: rotate(180deg);
+.img {
+    height: 150px;
+    position: relative;
+    background-image: url("");
 }
-.field{
-    border: 2px solid rgb(136, 57, 26);
+.button {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.bigDiv {
+    border: 1px solid #000;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+#catalog {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
     box-sizing: border-box;
 }
-td:last-child p {
-    transform: rotate(180deg);
+#allSum {
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*justify-content:right;*/
+    /*box-sizing: border-box;*/
+    display:table;
+    text-align:end;
 }
-.white{
-    background: rgb(255, 255, 255);
-    background-image: url("white.png");
+#forAllSum {
+    margin-right: 50px;
+    display:table-cell;
+    vertical-align:middle;
 }
-.black{
-    background: rgb(0, 0, 0);
-    background-image: url("black.png");
+#basket {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
 }
-.numeration{
-    background: rgb(255, 255, 255);
-    background-image: url("white.png");
+.price {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(255, 255, 255,0.7);
 }
-.corner{
-    background: rgb(255, 255, 255);
-    background-image: url("white.png");
+.BigDibForItems {
+    border: 1px solid #000;
+    width: 600px;
+    display: flex;
+    align-items: center;
 }
-.whiteChessPiece{
-    color:rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: bold;
+input {
+    height: 20px; 
+    width: 50px;
+    margin-left: 5px;
 }
-.blackChessPiece{
-    color:rgb(0, 0, 0);
-    font-size: 30px;
-    font-weight: bold;
+
+.divQuantity {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100px;
+    width: auto;
 }
-p{
-    
+p {
     margin: 0;
     padding: 0;
+}
+.itemInBasket {
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sum {
+    margin-left: 25px;
+}
+.img
+ {
+   background-size: cover;
 }
